@@ -1,10 +1,57 @@
-html{
-    box-sizing: border-box;
+@import 'vars';
+@import 'global';
+
+.header__top{
+    background-color: #eef1f3;
 }
-*,
-*::before,
-*::after{
-    box-sizing: inherit;
+.header__top-inner{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
 }
+.logo__name{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 6px;
+    color: #000;
+    span{
+        color: $bg;
+    }
+}
+.header__seller{
+    margin-left: auto;
+    margin-right: 51px;
+}
+.header__seller{
+    width: 140px;
+    padding: 6px;
+    background-color: $bg;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.menu__list{
+    text-transform: uppercase;
+    li{
+        display: inline-block;
+        & + li{
+            margin-left: 30px;
+        }
+    }
+    a{
+        color: #333333;
+        font-weight: 500;
+        font-size: 15px;
+    }
+}
+
 
 
