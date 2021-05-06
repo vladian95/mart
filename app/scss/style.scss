@@ -255,6 +255,38 @@
     }
 }
 // search end
+// advantages start
+.advantages__inner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.advantages__inner-item{
+    img{
+        margin-top: 60px;
+    }
+    .advantages__inner-item-text{
+        margin: 30px 0px 60px 0px;
+        font-size: 24px;
+        font-weight: 400;
+        color: #000;
+    }
+    .guarantee{
+        a{
+            color: #0674ec;
+        }
+        
+    }
+}
+.advantages__inner-item-money{
+    padding-right: 130px;
+    border-right: 0.5px solid #e8eaf3;
+}
+.advantages__inner-item-support{
+    padding-left: 130px;
+    border-left: 0.5px solid #e8eaf3;
+}
+// adventages end
 // start join
 .join{
     background-repeat: no-repeat;
@@ -290,12 +322,6 @@
         font-weight: 400;
     }
 }
-
-  
-
-
-
-
 // end join
 // start footer
 
