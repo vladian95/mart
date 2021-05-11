@@ -254,6 +254,64 @@
     }
 }
 // search end
+// funFact start
+
+
+
+
+
+
+
+// funFact end
+// choose start
+.choose__inner{
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.choose__item{
+    padding: 55px 30px 40px;
+    text-align: center;
+    max-width: 361px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    position: relative;
+    margin-bottom: 31px;
+    &::before{
+        content: '01';
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        color: rgba(92, 135, 248, 0.2);
+        font-size: 48px;
+        font-weight: 400;
+    }
+    .choose__item-title{
+        margin-top: 46px;
+        font-size: 24px;
+        font-weight: 400;
+        color: #000;
+    }
+    .choose__item-text{
+        margin-top: 15px;
+        color: #555555;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+}
+
+  
+
+
+
+
+
+
+
+// choose end
 // rocks start
 .rocks{
     background-size: cover;
