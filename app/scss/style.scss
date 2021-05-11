@@ -254,6 +254,53 @@
     }
 }
 // search end
+// rocks start
+.rocks{
+    background-size: cover;
+    min-height: 560px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.rocks__inner{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+.rocks__item{
+    color: #fff;
+    max-width: 550px;
+    text-align: center;
+    
+    button{
+        margin-top: 35px;
+        width: 190px;
+        height: 55px;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+        border: none;
+        border-radius: 23px;
+        background-color: #fff;
+        color: $bg;
+        outline: none;
+        
+    }
+    .rocks__btn-buy{
+        color: #7347c1;
+    }
+} 
+.rocks__item-title{
+    font-style: 36px;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 50px;
+}
+.rocks__item-text{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 17px;
+}
+// rocks end
 // start feedback
 .feedback__inner {
     text-align: center;
