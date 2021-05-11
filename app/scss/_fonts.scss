@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?84f9cs');
-    src:  url('../fonts/icomoon.eot?84f9cs#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?84f9cs') format('truetype'),
-      url('../fonts/icomoon.woff?84f9cs') format('woff'),
-      url('../fonts/icomoon.svg?84f9cs#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?c41315');
+    src:  url('../fonts/icomoon.eot?c41315#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?c41315') format('truetype'),
+      url('../fonts/icomoon.woff?c41315') format('woff'),
+      url('../fonts/icomoon.svg?c41315#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -31,6 +31,9 @@
   .icon-map-marker:before {
     content: "\f041";
   }
+  .icon-eye:before {
+    content: "\f06e";
+  }
   .icon-phone:before {
     content: "\f095";
   }
@@ -46,6 +49,9 @@
   .icon-pinterest:before {
     content: "\f0d2";
   }
+  .icon-comment-o:before {
+    content: "\f0e5";
+  }
   .icon-angle-down:before {
     content: "\f107";
   }
@@ -58,4 +64,6 @@
   .icon-google:before {
     content: "\f1a0";
   }
-  
+  .icon-alarm:before {
+    content: "\e950";
+  }

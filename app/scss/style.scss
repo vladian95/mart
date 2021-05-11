@@ -255,6 +255,122 @@
     }
 }
 // search end
+// news start
+.news{
+    background-color: $grey;
+    &__inner{
+        padding: 120px 0px;
+        text-align: center;
+        &-title{
+            color: #000;
+            font-size: 36px;
+            font-weight: 400;
+            margin-bottom: 22px;
+            span{
+                color: #0674ec;
+            }
+        }
+        &-text{
+            max-width: 680px;
+            margin: 0 auto;
+            color: #555555;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+    }
+}
+.news__inner-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.news__inner-item{
+    background-color: #fff;
+    max-width: 360px;
+    margin-bottom: 50px;
+    &-img{
+        max-width: 100%;
+        height: 230px;
+    }
+    &-title{
+        text-align: left;
+        color: #000;
+        font-size: 22px;
+        font-weight: 400;
+        margin-top: 30px;
+        margin-left: 28px;
+    }
+    &-text{
+        margin: 20px 0px 30px 28px;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        color: $grey;
+        text-align: left;
+    }
+}
+.news__inner-item-link{
+    border-top: 1px solid #e8eaee;
+    padding: 10px 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    a{
+        color: #999999;
+    }
+    .news__inner-item-link-date,
+    .news__inner-item-link-opinions{
+        margin: 13px 0px 13px;
+    }
+    .news__inner-item-link-date{
+        
+        &::before{
+            content: '\e950';
+            font-family: 'icomoon';
+            font-size: 15px;
+            font-weight: 400;
+            transition: all .3s; 
+        }
+        &:hover::before{
+            color: #0674ec;
+        }
+    }
+    .news__inner-item-link-opinions{
+        
+        .comments{
+            &::before{
+                content: '\f0e5';
+                font-family: 'icomoon';
+                font-size: 15px;
+                font-weight: 400;
+                left: 0;
+                transition: all .3s;    
+            }
+            &:hover::before{
+                color: #0674ec;
+            }
+        }
+        .views{
+            margin-left: 30px;
+            &::before{
+                content: '\f06e';
+                font-family: 'icomoon';
+                font-size: 15px;
+                font-weight: 400;
+                transition: all .3s;
+            }
+            &:hover::before{
+                color: #0674ec;
+            }
+        }
+    }
+}
+// news end
 // advantages start
 .advantages__inner{
     display: flex;
@@ -275,7 +391,6 @@
         a{
             color: #0674ec;
         }
-        
     }
 }
 .advantages__inner-item-money{
@@ -363,6 +478,10 @@ footer{
         margin-bottom: 8px;
     }
 }  
+.footer_col-logo{
+    max-width: 288px;
+    padding-right: 10px;
+}
 .footer__info{
     margin-top: 14px;
     color: #b9b9b9;
