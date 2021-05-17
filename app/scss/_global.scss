@@ -45,3 +45,30 @@ li{
     margin: 0 auto;
     padding: 0 15px;
 }
+.breadcrumbs{
+    padding: 58px 0px;
+    background-image: url(../images/breadbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 180px;
+    color: #fff;
+    .breadcrumbs__inner{
+        
+        .breadcrumbs__list{
+            font-style: 15px;
+            font-weight: 400;
+            margin-bottom: 28px;
+            li{
+                display: inline-block;
+                a{
+                    color: #fff;
+                }
+            }
+        }
+        .breadcrumbs__title{
+            font-size: 30px;
+            font-weight: 400;
+        }
+    }
+}
