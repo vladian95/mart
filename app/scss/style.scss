@@ -1282,3 +1282,35 @@ footer {
         outline: none;
     }
 }
+// footer end
+// 404 start
+.page-404__inner{
+    padding: 80px 0px 100px;
+    text-align: center;
+    .page-404__title{
+        font-size: 30px;
+        font-weight: 400;
+        color: #000;
+        margin-top: 54px;
+    }
+    .page-404__link{
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff;
+        padding: 20px 46px;
+        background-color: $bg;
+        border-radius: 22px;
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// 404 end
