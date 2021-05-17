@@ -1301,6 +1301,58 @@ footer {
         background-color: $bg;
         border-radius: 22px;
         margin-top: 40px;
+        box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+    }
+} 
+// 404 end
+// login-mail start
+.login-mail{
+    background-color: $grey;
+}
+.login-mail__inner{
+    padding: 70px 0px 121px;
+    .login-mail__box{
+        max-width: 555px;
+        background-color: #fff;
+        margin: 0 auto;
+        padding: 41px 0px 60px;
+        .login-mail__top-content{
+            width: 100%;
+            font-size: 16px;
+            line-height: 30px;
+            color: #555555;
+            padding-bottom: 20px;
+            border-bottom: 1px solid $grey;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .login-mail__bottom-content{
+            padding-left: 50px;
+            padding-right: 50px;
+            .login-mail__bottom-content-title{
+                margin-top: 41px;
+                font-size: 16px;
+                font-weight: 400;
+                color: #000;
+            }
+            input{
+                width: 455px;
+                height: 50px;
+                padding-left: 28px;
+                padding-right: 16px;
+                margin-top: 15px;
+            }
+        }
+        .login-mail__btn{
+            padding: 19px 52px;
+            margin-left: 50px;
+            margin-top: 32px;
+            border-radius: 22px;
+            border: none;
+            background-color: $bg;
+            color: #fff;
+            box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+        }
     }
 }
 
@@ -1310,7 +1362,4 @@ footer {
 
 
 
-
-
-
-// 404 end
+// login-mail end
