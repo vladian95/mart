@@ -97,8 +97,6 @@
         }
     }
 }
-
-
 .menu {
     display: flex;
     justify-content: space-between;
@@ -457,10 +455,11 @@
 // weekly end
 // newest start
 .newest {
+    padding: 120px 0px;
     background-color: #f6f7fb;
 }
 .newest__inner {
-    padding: 120px 0px;
+    // padding: 120px 0px;
     form {
         text-align: center;
         button {
