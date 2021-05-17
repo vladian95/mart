@@ -29,11 +29,26 @@
                     <a href="#" class="header__seller">
                         Become a Seller
                     </a>
-                    <div class="header__box">
-                        <a href="#" class="basket"></a>
-                        <a href="#" class="mail"></a>
-                        <a href="#" class="alarm"></a>
+                    <div class="header__box-icon">
+                        <a href="#" class="icon__item bell icon-bell-o">
+                            <span>25</span>
+                        </a>
+                        <a href="#" class="icon__item mail icon-envelope-o">
+                            <span>6</span>
+                        </a>
+                        <a href="#" class="icon__item basket icon-cart">
+                            <span>2</span>
+                        </a>
                     </div>
+                    <a class="user">
+                        <div class="user__images">
+                            <img src="" alt="">
+                        </div>
+                        <div class="user__info">
+                            <div class="user__name">Taofiq Hakim</div>
+                            <div class="user__money">$20.45</div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -151,31 +166,68 @@
 
                 <div class="weekly__content-inner">
 
-                    <img src="images/weeklybg.jpg" alt="">
-                    <div class="weekly__content">
-                        <div class="weekly__content-title">
-                            One Page Resume Template
+                    <div class="weekly__content-content__box">
+                        <img src="images/weeklybg.jpg" alt="">
+                        <div class="weekly__content">
+                            <div class="weekly__content-title">
+                                One Page Resume Template
+                            </div>
+                            <div class="weekly__personal-box">
+                                <div class="weekly__avatar"></div>
+                                <div class="weekly__name">AazzTech</div>
+                                <div class="weekly__html">HTML</div>
+                            </div>
+                            <div class="weekly__content-text">
+                                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                                mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra,
+                                justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+                            </div>
+                            <ul class="weekly__web-box">
+                                <li><a href="#">Website</a></li>
+                                <li><a href="#">Plugin</a></li>
+                                <li><a href="#">Landing Page</a></li>
+                            </ul>
+                            <ul class="weekly__bottom-box">
+                                <li>
+                                    <div class="price">$10 - $50</div>
+                                </li>
+                                <li><a class="likes">46</a></li>
+                                <li><a class="basket">634</a></li>
+                            </ul>
                         </div>
-                        <div class="weekly__personal-box">
-                            <div class="weekly__avatar"></div>
-                            <div class="weekly__name">AazzTech</div>
-                            <div class="weekly__html">HTML</div>
+                    </div>
+                    <!-- <div class="weekly__content-content__box">
+                        <img src="images/weeklybg.jpg" alt="">
+                        <div class="weekly__content">
+                            <div class="weekly__content-title">
+                                One Page Resume Template
+                            </div>
+                            <div class="weekly__personal-box">
+                                <div class="weekly__avatar"></div>
+                                <div class="weekly__name">AazzTech</div>
+                                <div class="weekly__html">HTML</div>
+                            </div>
+                            <div class="weekly__content-text">
+                                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                                mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra,
+                                justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+                            </div>
+                            <ul class="weekly__web-box">
+                                <li><a href="#">Website</a></li>
+                                <li><a href="#">Plugin</a></li>
+                                <li><a href="#">Landing Page</a></li>
+                            </ul>
+                            <ul class="weekly__bottom-box">
+                                <li>
+                                    <div class="price">$10 - $50</div>
+                                </li>
+                                <li><a class="likes">46</a></li>
+                                <li><a class="basket">634</a></li>
+                            </ul>
                         </div>
-                        <div class="weekly__content-text">
-                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
-                        </div>
-                        <ul class="weekly__web-box">
-                            <li><a href="#">Website</a></li>
-                            <li><a href="#">Plugin</a></li>
-                            <li><a href="#">Landing Page</a></li>
-                        </ul>
-                        <ul class="weekly__bottom-box">
-                            <li><div class="price">$10 - $50</div></li>
-                            <li><a class="likes">46</a></li>
-                            <li><a class="basket">634</a></li>
-                        </ul>
-                    </div>    
-                    
+                    </div> -->
+
+
                 </div>
 
             </div>
@@ -186,29 +238,28 @@
 
     <section class="newest">
         <div class="container">
+            <div class="newest__top-box">
+                <div class="newest__top-box-title">
+                    Newest Release Products
+                </div>
+                <div class="newest__top-box-filter">Filter by:</div>
+            </div>
             <div class="newest__inner">
 
-                <div class="newest__top-box">
-                    <div class="newest__top-box-title">
-                        Newest Release Products
-                    </div>
-                    <div class="newest__top-box-filter">Filter by:</div>
+                <div class="newest__web-box">
+                    <button type="button" data-filter="all">Plugins</button>    
+                    <button type="button" data-filter=".category-wordpress">WordPress</button>    
+                    <button type="button" data-filter=".category-joomla">Site Template</button>    
+                    <button type="button" data-filter="all">PSD Template</button>    
+                    <button type="button" data-filter=".category-joomla">Joomla</button>    
+                    <button type="button" data-filter=".category-wordpress">User Interface</button>    
+                    <button type="button" data-filter=".category-software">Landing Page</button>    
+                    <button type="button" data-filter=".category-software">Software</button>     
                 </div>
-
-                <ul class="newest__web-box">
-                    <li><a href="#">Plugins</a></li>
-                    <li><a href="#">WordPress</a></li>
-                    <li><a href="#">Site Template</a></li>
-                    <li><a href="#">PSD Template</a></li>
-                    <li><a href="#">Joomla</a></li>
-                    <li><a href="#">User Interface</a></li>
-                    <li><a href="#">Landing Page</a></li>
-                    <li><a href="#">Software</a></li>
-                </ul>
 
                 <div class="newest__items-inner">
 
-                    <div class="followers__item newest__item">
+                    <div class="followers__item newest__item mix category-wordpress" data-order="1">
                         <img src="images/followersbg.jpg" alt="#">
                         <div class="followers__item-box__content">
                             <div class="followers__item-title">
@@ -232,7 +283,7 @@
                             <a href="#" class="followers__item-bottom__box-basket">246</a>
                         </div>
                     </div>
-                    <div class="followers__item newest__item">
+                    <div class="followers__item newest__item mix category-psd" data-order="2">
                         <img src="images/followersbg.jpg" alt="#">
                         <div class="followers__item-box__content">
                             <div class="followers__item-title">
@@ -256,7 +307,7 @@
                             <a href="#" class="followers__item-bottom__box-basket">246</a>
                         </div>
                     </div>
-                    <div class="followers__item newest__item">
+                    <div class="followers__item newest__item mix category-joomla" data-order="3">
                         <img src="images/followersbg.jpg" alt="#">
                         <div class="followers__item-box__content">
                             <div class="followers__item-title">
@@ -280,7 +331,7 @@
                             <a href="#" class="followers__item-bottom__box-basket">246</a>
                         </div>
                     </div>
-                    <div class="followers__item newest__item">
+                    <div class="followers__item newest__item mix category-wordpress newall" data-order="4">
                         <img src="images/followersbg.jpg" alt="#">
                         <div class="followers__item-box__content">
                             <div class="followers__item-title">
@@ -304,7 +355,7 @@
                             <a href="#" class="followers__item-bottom__box-basket">246</a>
                         </div>
                     </div>
-                    <div class="followers__item newest__item">
+                    <div class="followers__item newest__item mix category-psd newall" data-order="5">
                         <img src="images/followersbg.jpg" alt="#">
                         <div class="followers__item-box__content">
                             <div class="followers__item-title">
@@ -328,7 +379,7 @@
                             <a href="#" class="followers__item-bottom__box-basket">246</a>
                         </div>
                     </div>
-                    <div class="followers__item newest__item">
+                    <div class="followers__item newest__item mix category-software newall" data-order="6">
                         <img src="images/followersbg.jpg" alt="#">
                         <div class="followers__item-box__content">
                             <div class="followers__item-title">
@@ -355,7 +406,7 @@
 
                 </div>
                 <form>
-                    <button type="submit">All New Products</button>
+                    <button type="button" data-filter=".newall">All New Products</button>
                 </form>
             </div>
         </div>
@@ -363,169 +414,238 @@
 
     <section class="followers">
         <div class="container">
-            <div class="followers__inner">
-
-                <div class="followers__top-box">
-                    <div class="followers__top-box-title">
-                        Your Followers Feed
-                    </div>
-                    <div class="followers__top-box-arrows"></div>
+            <div class="followers__top-box">
+                <div class="followers__top-box-title">
+                    Your Followers Feed
                 </div>
-
-                <div class="followers__items-inner">
-
-                    <div class="followers__item">
-                        <img src="images/followersbg.jpg" alt="#">
-                        <div class="followers__item-box__content">
-                            <div class="followers__item-title">
-                                E-commerce Shopping Cart
-                            </div>
-                            <div class="followers__item-personal">
-                                <div class="avatar"></div>
-                                <div class="followers__item-personal-title">
-                                    Theme-Valley
-                                </div>
-                                <div class="format">HTML</div>
-                            </div>
-                            <div class="followers__item-text">
-                                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-                                the mattis, leo quam aliquet congue.
-                            </div>
-                        </div>
-                        <div class="followers__item-bottom__box">
-                            <div class="followers__item-bottom__box-price">$20</div>
-                            <a href="#" class="followers__item-bottom__box-likes">90</a>
-                            <a href="#" class="followers__item-bottom__box-basket">246</a>
-                        </div>
-                    </div>
-                    <div class="followers__item">
-                        <img src="images/followersbg.jpg" alt="#">
-                        <div class="followers__item-box__content">
-                            <div class="followers__item-title">
-                                E-commerce Shopping Cart
-                            </div>
-                            <div class="followers__item-personal">
-                                <div class="avatar"></div>
-                                <div class="followers__item-personal-title">
-                                    Theme-Valley
-                                </div>
-                                <div class="format">HTML</div>
-                            </div>
-                            <div class="followers__item-text">
-                                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-                                the mattis, leo quam aliquet congue.
-                            </div>
-                        </div>
-                        <div class="followers__item-bottom__box">
-                            <div class="followers__item-bottom__box-price">$20</div>
-                            <a href="#" class="followers__item-bottom__box-likes">90</a>
-                            <a href="#" class="followers__item-bottom__box-basket">246</a>
-                        </div>
-                    </div>
-                    <div class="followers__item">
-                        <img src="images/followersbg.jpg" alt="#">
-                        <div class="followers__item-box__content">
-                            <div class="followers__item-title">
-                                E-commerce Shopping Cart
-                            </div>
-                            <div class="followers__item-personal">
-                                <div class="avatar"></div>
-                                <div class="followers__item-personal-title">
-                                    Theme-Valley
-                                </div>
-                                <div class="format">HTML</div>
-                            </div>
-                            <div class="followers__item-text">
-                                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-                                the mattis, leo quam aliquet congue.
-                            </div>
-                        </div>
-                        <div class="followers__item-bottom__box">
-                            <div class="followers__item-bottom__box-price">$20</div>
-                            <a href="#" class="followers__item-bottom__box-likes">90</a>
-                            <a href="#" class="followers__item-bottom__box-basket">246</a>
-                        </div>
-                    </div>
-                    <div class="followers__item">
-                        <img src="images/followersbg.jpg" alt="#">
-                        <div class="followers__item-box__content">
-                            <div class="followers__item-title">
-                                E-commerce Shopping Cart
-                            </div>
-                            <div class="followers__item-personal">
-                                <div class="avatar"></div>
-                                <div class="followers__item-personal-title">
-                                    Theme-Valley
-                                </div>
-                                <div class="format">HTML</div>
-                            </div>
-                            <div class="followers__item-text">
-                                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-                                the mattis, leo quam aliquet congue.
-                            </div>
-                        </div>
-                        <div class="followers__item-bottom__box">
-                            <div class="followers__item-bottom__box-price">$20</div>
-                            <a href="#" class="followers__item-bottom__box-likes">90</a>
-                            <a href="#" class="followers__item-bottom__box-basket">246</a>
-                        </div>
-                    </div>
-                    <div class="followers__item">
-                        <img src="images/followersbg.jpg" alt="#">
-                        <div class="followers__item-box__content">
-                            <div class="followers__item-title">
-                                E-commerce Shopping Cart
-                            </div>
-                            <div class="followers__item-personal">
-                                <div class="avatar"></div>
-                                <div class="followers__item-personal-title">
-                                    Theme-Valley
-                                </div>
-                                <div class="format">HTML</div>
-                            </div>
-                            <div class="followers__item-text">
-                                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-                                the mattis, leo quam aliquet congue.
-                            </div>
-                        </div>
-                        <div class="followers__item-bottom__box">
-                            <div class="followers__item-bottom__box-price">$20</div>
-                            <a href="#" class="followers__item-bottom__box-likes">90</a>
-                            <a href="#" class="followers__item-bottom__box-basket">246</a>
-                        </div>
-                    </div>
-                    <div class="followers__item">
-                        <img src="images/followersbg.jpg" alt="#">
-                        <div class="followers__item-box__content">
-                            <div class="followers__item-title">
-                                E-commerce Shopping Cart
-                            </div>
-                            <div class="followers__item-personal">
-                                <div class="avatar"></div>
-                                <div class="followers__item-personal-title">
-                                    Theme-Valley
-                                </div>
-                                <div class="format">HTML</div>
-                            </div>
-                            <div class="followers__item-text">
-                                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-                                the mattis, leo quam aliquet congue.
-                            </div>
-                        </div>
-                        <div class="followers__item-bottom__box">
-                            <div class="followers__item-bottom__box-price">$20</div>
-                            <a href="#" class="followers__item-bottom__box-likes">90</a>
-                            <a href="#" class="followers__item-bottom__box-basket">246</a>
-                        </div>
-                    </div>
-
-
-
-
-
-
-                </div>
+                <div class="followers__top-box-arrows"></div>
             </div>
+            <div class="followers__items-inner">
+
+                <div class="followers__item">
+                    <img src="images/followersbg.jpg" alt="#">
+                    <div class="followers__item-box__content">
+                        <div class="followers__item-title">
+                            E-commerce Shopping Cart
+                        </div>
+                        <div class="followers__item-personal">
+                            <div class="avatar"></div>
+                            <div class="followers__item-personal-title">
+                                Theme-Valley
+                            </div>
+                            <div class="format">HTML</div>
+                        </div>
+                        <div class="followers__item-text">
+                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.
+                        </div>
+                    </div>
+                    <div class="followers__item-bottom__box">
+                        <div class="followers__item-bottom__box-price">$20</div>
+                        <a href="#" class="followers__item-bottom__box-likes">90</a>
+                        <a href="#" class="followers__item-bottom__box-basket">246</a>
+                    </div>
+                </div>
+                <div class="followers__item">
+                    <img src="images/followersbg.jpg" alt="#">
+                    <div class="followers__item-box__content">
+                        <div class="followers__item-title">
+                            E-commerce Shopping Cart
+                        </div>
+                        <div class="followers__item-personal">
+                            <div class="avatar"></div>
+                            <div class="followers__item-personal-title">
+                                Theme-Valley
+                            </div>
+                            <div class="format">HTML</div>
+                        </div>
+                        <div class="followers__item-text">
+                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.
+                        </div>
+                    </div>
+                    <div class="followers__item-bottom__box">
+                        <div class="followers__item-bottom__box-price">$20</div>
+                        <a href="#" class="followers__item-bottom__box-likes">90</a>
+                        <a href="#" class="followers__item-bottom__box-basket">246</a>
+                    </div>
+                </div>
+                <div class="followers__item">
+                    <img src="images/followersbg.jpg" alt="#">
+                    <div class="followers__item-box__content">
+                        <div class="followers__item-title">
+                            E-commerce Shopping Cart
+                        </div>
+                        <div class="followers__item-personal">
+                            <div class="avatar"></div>
+                            <div class="followers__item-personal-title">
+                                Theme-Valley
+                            </div>
+                            <div class="format">HTML</div>
+                        </div>
+                        <div class="followers__item-text">
+                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.
+                        </div>
+                    </div>
+                    <div class="followers__item-bottom__box">
+                        <div class="followers__item-bottom__box-price">$20</div>
+                        <a href="#" class="followers__item-bottom__box-likes">90</a>
+                        <a href="#" class="followers__item-bottom__box-basket">246</a>
+                    </div>
+                </div>
+                <div class="followers__item">
+                    <img src="images/followersbg.jpg" alt="#">
+                    <div class="followers__item-box__content">
+                        <div class="followers__item-title">
+                            E-commerce Shopping Cart
+                        </div>
+                        <div class="followers__item-personal">
+                            <div class="avatar"></div>
+                            <div class="followers__item-personal-title">
+                                Theme-Valley
+                            </div>
+                            <div class="format">HTML</div>
+                        </div>
+                        <div class="followers__item-text">
+                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.
+                        </div>
+                    </div>
+                    <div class="followers__item-bottom__box">
+                        <div class="followers__item-bottom__box-price">$20</div>
+                        <a href="#" class="followers__item-bottom__box-likes">90</a>
+                        <a href="#" class="followers__item-bottom__box-basket">246</a>
+                    </div>
+                </div>
+                <div class="followers__item">
+                    <img src="images/followersbg.jpg" alt="#">
+                    <div class="followers__item-box__content">
+                        <div class="followers__item-title">
+                            E-commerce Shopping Cart
+                        </div>
+                        <div class="followers__item-personal">
+                            <div class="avatar"></div>
+                            <div class="followers__item-personal-title">
+                                Theme-Valley
+                            </div>
+                            <div class="format">HTML</div>
+                        </div>
+                        <div class="followers__item-text">
+                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.
+                        </div>
+                    </div>
+                    <div class="followers__item-bottom__box">
+                        <div class="followers__item-bottom__box-price">$20</div>
+                        <a href="#" class="followers__item-bottom__box-likes">90</a>
+                        <a href="#" class="followers__item-bottom__box-basket">246</a>
+                    </div>
+                </div>
+                <div class="followers__item">
+                    <img src="images/followersbg.jpg" alt="#">
+                    <div class="followers__item-box__content">
+                        <div class="followers__item-title">
+                            E-commerce Shopping Cart
+                        </div>
+                        <div class="followers__item-personal">
+                            <div class="avatar"></div>
+                            <div class="followers__item-personal-title">
+                                Theme-Valley
+                            </div>
+                            <div class="format">HTML</div>
+                        </div>
+                        <div class="followers__item-text">
+                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.
+                        </div>
+                    </div>
+                    <div class="followers__item-bottom__box">
+                        <div class="followers__item-bottom__box-price">$20</div>
+                        <a href="#" class="followers__item-bottom__box-likes">90</a>
+                        <a href="#" class="followers__item-bottom__box-basket">246</a>
+                    </div>
+                </div>
+                <div class="followers__item">
+                    <img src="images/followersbg.jpg" alt="#">
+                    <div class="followers__item-box__content">
+                        <div class="followers__item-title">
+                            E-commerce Shopping Cart
+                        </div>
+                        <div class="followers__item-personal">
+                            <div class="avatar"></div>
+                            <div class="followers__item-personal-title">
+                                Theme-Valley
+                            </div>
+                            <div class="format">HTML</div>
+                        </div>
+                        <div class="followers__item-text">
+                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.
+                        </div>
+                    </div>
+                    <div class="followers__item-bottom__box">
+                        <div class="followers__item-bottom__box-price">$20</div>
+                        <a href="#" class="followers__item-bottom__box-likes">90</a>
+                        <a href="#" class="followers__item-bottom__box-basket">246</a>
+                    </div>
+                </div>
+                <div class="followers__item">
+                    <img src="images/followersbg.jpg" alt="#">
+                    <div class="followers__item-box__content">
+                        <div class="followers__item-title">
+                            E-commerce Shopping Cart
+                        </div>
+                        <div class="followers__item-personal">
+                            <div class="avatar"></div>
+                            <div class="followers__item-personal-title">
+                                Theme-Valley
+                            </div>
+                            <div class="format">HTML</div>
+                        </div>
+                        <div class="followers__item-text">
+                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.
+                        </div>
+                    </div>
+                    <div class="followers__item-bottom__box">
+                        <div class="followers__item-bottom__box-price">$20</div>
+                        <a href="#" class="followers__item-bottom__box-likes">90</a>
+                        <a href="#" class="followers__item-bottom__box-basket">246</a>
+                    </div>
+                </div>
+                <div class="followers__item">
+                    <img src="images/followersbg.jpg" alt="#">
+                    <div class="followers__item-box__content">
+                        <div class="followers__item-title">
+                            E-commerce Shopping Cart
+                        </div>
+                        <div class="followers__item-personal">
+                            <div class="avatar"></div>
+                            <div class="followers__item-personal-title">
+                                Theme-Valley
+                            </div>
+                            <div class="format">HTML</div>
+                        </div>
+                        <div class="followers__item-text">
+                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.
+                        </div>
+                    </div>
+                    <div class="followers__item-bottom__box">
+                        <div class="followers__item-bottom__box-price">$20</div>
+                        <a href="#" class="followers__item-bottom__box-likes">90</a>
+                        <a href="#" class="followers__item-bottom__box-basket">246</a>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
         </div>
     </section>
 
@@ -955,7 +1075,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
