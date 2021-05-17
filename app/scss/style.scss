@@ -32,14 +32,14 @@
     font-weight: 400;
     text-align: center;
 }
-.header__box-icon{
-    .icon__item{
+.header__box-icon {
+    .icon__item {
         position: relative;
         color: #7e8fa1;
-        & + .icon__item{
+        & + .icon__item {
             margin-left: 32px;
         }
-        span{
+        span {
             position: absolute;
             height: 22px;
             width: 22px;
@@ -53,43 +53,43 @@
             line-height: 18px;
         }
     }
-    .bell{
-        span{
+    .bell {
+        span {
             background-color: #ff6a6c;
             right: -11px;
         }
     }
-    .mail{
-        span{
+    .mail {
+        span {
             background-color: #62d03b;
             right: -14px;
         }
     }
-    .basket{
-        span{
+    .basket {
+        span {
             background-color: #0674ec;
         }
     }
 }
-.user{
+.user {
     display: flex;
     align-items: center;
     margin-left: 49px;
-    .user__images{
+    .user__images {
         height: 50px;
         width: 50px;
         background-color: #495563;
         border-radius: 50%;
     }
-    .user__info{
+    .user__info {
         margin-left: 21px;
-        .user__name{
+        .user__name {
             font-size: 16px;
             font-weight: 400;
             line-height: 22px;
             color: #333333;
         }
-        .user__money{
+        .user__money {
             font-size: 15px;
             line-height: 22px;
             font-weight: 400;
@@ -342,10 +342,10 @@
         }
     }
 }
-.weekly__content-content__box{
+.weekly__content-content__box {
     display: flex;
 }
-.slick-slide{
+.slick-slide {
     display: flex;
 }
 .weekly__content {
@@ -519,7 +519,6 @@
         & + button {
             margin-left: 8px;
         }
-        
     }
 }
 .newest__items-inner {
@@ -1284,16 +1283,16 @@ footer {
 }
 // footer end
 // 404 start
-.page-404__inner{
+.page-404__inner {
     padding: 80px 0px 100px;
     text-align: center;
-    .page-404__title{
+    .page-404__title {
         font-size: 30px;
         font-weight: 400;
         color: #000;
         margin-top: 54px;
     }
-    .page-404__link{
+    .page-404__link {
         font-size: 15px;
         font-weight: 400;
         color: #fff;
@@ -1303,20 +1302,20 @@ footer {
         margin-top: 40px;
         box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
     }
-} 
+}
 // 404 end
 // login-mail start
-.login-mail{
+.login-mail {
     background-color: $grey;
 }
-.login-mail__inner{
+.login-mail__inner {
     padding: 70px 0px 121px;
-    .login-mail__box{
+    .login-mail__box {
         max-width: 555px;
         background-color: #fff;
         margin: 0 auto;
         padding: 41px 0px 60px;
-        .login-mail__top-content{
+        .login-mail__top-content {
             width: 100%;
             font-size: 16px;
             line-height: 30px;
@@ -1326,16 +1325,16 @@ footer {
             padding-left: 50px;
             padding-right: 50px;
         }
-        .login-mail__bottom-content{
+        .login-mail__bottom-content {
             padding-left: 50px;
             padding-right: 50px;
-            .login-mail__bottom-content-title{
+            .login-mail__bottom-content-title {
                 margin-top: 41px;
                 font-size: 16px;
                 font-weight: 400;
                 color: #000;
             }
-            input{
+            input {
                 width: 455px;
                 height: 50px;
                 padding-left: 28px;
@@ -1343,7 +1342,7 @@ footer {
                 margin-top: 15px;
             }
         }
-        .login-mail__btn{
+        .login-mail__btn {
             padding: 19px 52px;
             margin-left: 50px;
             margin-top: 32px;
@@ -1355,11 +1354,83 @@ footer {
         }
     }
 }
-
-
-
-
-
-
-
 // login-mail end
+// login start
+.login {
+    background-color: #eff1f5;
+    padding: 70px 0px 120px;
+}
+.login__box {
+    max-width: 555px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 60px 0px;
+    .login__box__top-content {
+        text-align: center;
+        border-bottom: 2px solid #eff1f5;
+        .title {
+            font-size: 26px;
+            font-weight: 400;
+            color: #000;
+            margin-bottom: 28px;
+        }
+        .text {
+            font-size: 16px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 29px;
+        }
+    }
+    .login__box__bottom-content {
+        display: block;
+        padding: 30px 50px 0px 50px;
+        label {
+            font-size: 16px;
+            font-weight: 500;
+            color: #000;
+        }
+        input {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            background-color: #eff1f5;
+            border: none;
+        }
+        .text-widht {
+            width: 100%;
+            padding: 20px 10px 20px 20px;
+        }
+        .check{
+            display: flex;
+            align-items: center;
+            
+
+
+
+
+
+
+        }
+        button {
+            display: block;
+            padding: 18px 58px;
+            border-radius: 22px;
+            border: none;
+            color: #fff;
+            background-color: $bg;
+        }
+        .login__box__bottom-links {
+            display: flex;
+            margin-top: 43px;
+            font-size: 16px;
+            color: #898f96;
+            p {
+                & + p {
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+}
+
+// login end
