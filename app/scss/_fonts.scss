@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?4unmp7');
-  src:  url('../fonts/icomoon.eot?4unmp7#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?4unmp7') format('truetype'),
-    url('../fonts/icomoon.woff?4unmp7') format('woff'),
-    url('../fonts/icomoon.svg?4unmp7#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?xn6smf');
+  src:  url('../fonts/icomoon.eot?xn6smf#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?xn6smf') format('truetype'),
+    url('../fonts/icomoon.woff?xn6smf') format('woff'),
+    url('../fonts/icomoon.svg?xn6smf#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,9 @@
 
 .icon-envelope-o:before {
   content: "\f003";
+}
+.icon-inbox:before {
+  content: "\f01c";
 }
 .icon-map-marker:before {
   content: "\f041";
@@ -61,6 +64,12 @@
 .icon-angle-down:before {
   content: "\f107";
 }
+.icon-mobile:before {
+  content: "\f10b";
+}
+.icon-mobile-phone:before {
+  content: "\f10b";
+}
 .icon-html5:before {
   content: "\f13b";
 }
@@ -79,3 +88,4 @@
 .icon-alarm:before {
   content: "\e950";
 }
+
