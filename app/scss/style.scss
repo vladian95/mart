@@ -1596,9 +1596,60 @@ footer {
         color: #000;
     }
 }
-
-
-
-
-
 // terms end
+// register start
+.register{
+    background-color: $page;
+    padding: 70px 0px 120px;
+}
+.register__inner{
+    max-width: 555px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 60px 0px;
+    .top__box{
+        margin-bottom: 1px;
+        text-align: center;
+        border-bottom: 1px solid $page;
+    }
+    .top__box-title{
+        font-size: 26px;
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 20px;
+    }
+    .top__box-text{
+    width: 405px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555;
+    }
+    form{
+        padding: 0px 40px;
+        .title{
+            font-size: 16px;
+            font-weight: 400;
+            color: #000;
+            margin-bottom: 15px;
+            margin-top: 30px;
+        }
+        input{
+            width: 455px;
+            padding: 19px 20px;
+            background-color: $page;
+            border: none;
+        }
+        button{
+          margin-top: 30px;
+          margin-bottom: 40px;
+        }
+    }
+    span{
+        margin-left: 50px;
+        color: #898f96;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+// register end
