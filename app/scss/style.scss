@@ -1567,13 +1567,38 @@ footer {
         }
     }
 }
-
- 
-
-
-
-
-
-
-
 // contact end
+// terms start
+.terms{
+    background-color: $page;
+    padding: 60px 0px;
+}
+.terms__title{
+    background-color: #fff;
+    padding: 41px 0px 41px 31px;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 1px;
+}
+.terms__box{
+    background-color: #fff;
+    padding: 30px 0px 30px 31px;
+    margin-bottom: 1px;
+    .terms__box-text{
+        font-size: 16px;
+        line-height: 30px;
+        color: #555;
+        margin-bottom: 47px;
+    }
+    .terms__box-bottom__title{
+        font-size: 24px;
+        font-weight: 400;
+        color: #000;
+    }
+}
+
+
+
+
+
+// terms end
