@@ -1401,15 +1401,28 @@ footer {
             padding: 20px 10px 20px 20px;
         }
         .check{
+            padding-left: 36px;
             display: flex;
             align-items: center;
-            
-
-
-
-
-
-
+            position: relative;
+            .check__input{
+                appearance: none;
+            }
+            .check__box{
+                position: absolute;
+                width: 22px;
+                height: 22px;
+                background-color: #fff;
+                border: 1px solid $bg;
+                border-radius: 50%;
+                left: 0;
+            }
+            // checked
+            .check__input{
+                &:checked +  .check__box{
+                    background-image: url(../images/icons/check-on.png);
+                }
+            }
         }
         button {
             display: block;
@@ -1418,6 +1431,7 @@ footer {
             border: none;
             color: #fff;
             background-color: $bg;
+            margin-top: 30px;
         }
         .login__box__bottom-links {
             display: flex;
