@@ -1624,6 +1624,7 @@ footer {
     font-size: 16px;
     line-height: 28px;
     color: #555;
+    margin-bottom: 20px;
     }
     form{
         padding: 0px 40px;
@@ -1653,3 +1654,115 @@ footer {
     }
 }
 // register end
+// how it work start
+.breadcrumbs__howItwork{
+    padding: 58px 0px 30px;
+    background-image: url(../images/breadbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 180px;
+   color: #fff;
+   text-align: center;
+   .breadcrumbs__howItwork-title{
+       font-size: 30px;
+       font-weight: 500;
+       line-height: 50px;
+       span{
+           font-weight: 300;
+       }
+    }
+    .breadcrumbs__list{
+        margin-top: 52px;
+        li{
+            display: inline-block;
+        }
+        a{
+            color: #fff;
+        }
+    } 
+}
+.howItwork__first-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+    .howItwork__first-box{
+        max-width: 487px;
+        padding-top: 37px;
+        .title{
+            font-size: 30px;
+            font-weight: 400;
+            color: #000;
+            margin-bottom: 35px;
+        }
+        .text{
+            font-size: 16px;
+            line-height: 30px;
+            color: #555;
+            margin-bottom: 18px;
+        }
+    }
+    
+}
+.howItwork__second{
+    background-color: $page;
+}
+.howItwork__second-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+    .howItwork__second-box{
+        max-width: 487px;
+        padding-top: 37px;
+        .title{
+            font-size: 30px;
+            font-weight: 400;
+            color: #000;
+            margin-bottom: 35px;
+        }
+        .text{
+            font-size: 16px;
+            line-height: 30px;
+            color: #555;
+            margin-bottom: 18px;
+        }
+        button{
+            background-color: #fff;
+            color: $bg;
+        }
+    }
+    
+}
+.howItwork__third-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+    .howItwork__third-box{
+        max-width: 487px;
+        padding-top: 37px;
+        .title{
+            font-size: 30px;
+            font-weight: 400;
+            color: #000;
+            margin-bottom: 35px;
+        }
+        .text{
+            font-size: 16px;
+            line-height: 30px;
+            color: #555;
+            margin-bottom: 18px;
+        }
+        button{
+            background-color: #fff;
+            color: $bg;
+        }
+    }
+    
+}
+
+
+
+
+
+
+// how it work end
