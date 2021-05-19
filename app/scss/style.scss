@@ -123,8 +123,8 @@
             position: absolute;
             border: none;
             background-color: $bg;
-            right: 0;
-            top: 0;
+            right: 0px;
+            top: 0px;
             height: 45px;
             width: 70px;
             border-radius: 17px;
@@ -662,7 +662,7 @@
 .slick-next {
     position: absolute;
     top: -114px;
-    right: 39px;
+    right: 49px;
 }
 
 // followers end
@@ -1400,15 +1400,15 @@ footer {
             width: 100%;
             padding: 20px 10px 20px 20px;
         }
-        .check{
+        .check {
             padding-left: 36px;
             display: flex;
             align-items: center;
             position: relative;
-            .check__input{
+            .check__input {
                 appearance: none;
             }
-            .check__box{
+            .check__box {
                 position: absolute;
                 width: 22px;
                 height: 22px;
@@ -1418,8 +1418,8 @@ footer {
                 left: 0;
             }
             // checked
-            .check__input{
-                &:checked +  .check__box{
+            .check__input {
+                &:checked + .check__box {
                     background-image: url(../images/icons/check-on.png);
                 }
             }
@@ -1449,41 +1449,41 @@ footer {
 
 // login end
 // contact start
-.breadcrumbs__contact{
+.breadcrumbs__contact {
     padding: 58px 0px;
     background-image: url(../images/breadbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 180px;
-   color: #fff;
-    .breadcrumbs__inner-contact{
+    color: #fff;
+    .breadcrumbs__inner-contact {
         text-align: center;
-       .breadcrumbs__title-contact{
-           font-size: 30px;
-           font-weight: 400;
-           margin-bottom: 32px;
-      }
-          .breadcrumbs__text-contact{
-              font-size: 20px;
-              font-weight: 400;
-          } 
+        .breadcrumbs__title-contact {
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 32px;
+        }
+        .breadcrumbs__text-contact {
+            font-size: 20px;
+            font-weight: 400;
+        }
     }
 }
 
-.contact{
+.contact {
     background-color: $page;
     padding: 120px 0px;
 }
-.contact__inner{
+.contact__inner {
     text-align: center;
-    .contact__title{
+    .contact__title {
         font-size: 36px;
         font-weight: 400;
         color: #000;
         margin-bottom: 10px;
     }
-    .contact__text{
+    .contact__text {
         max-width: 681px;
         margin: 0 auto;
         color: #555;
@@ -1492,68 +1492,68 @@ footer {
         font-weight: 400;
         margin-bottom: 49px;
     }
-    .contact__info{
+    .contact__info {
         display: flex;
         justify-content: space-between;
-        .contact__info-item{
+        .contact__info-item {
             width: 360px;
-            background-color: #fff; 
-            padding: 50px 15px; 
-            & + .contact__info-item{
+            background-color: #fff;
+            padding: 50px 15px;
+            & + .contact__info-item {
                 margin-left: 30px;
             }
-            .contact__info-item__img{
+            .contact__info-item__img {
                 font-size: 48px;
                 font-weight: 400;
                 color: $bg;
                 margin-bottom: 50px;
             }
-            .contact__info-item__title{
+            .contact__info-item__title {
                 font-size: 20px;
                 font-weight: 400;
                 color: #000;
                 margin-bottom: 30px;
             }
-            .contact__info-item__text{
+            .contact__info-item__text {
                 font-size: 16px;
                 color: #555;
                 font-weight: 400px;
                 line-height: 30px;
             }
-        }  
+        }
     }
-    .contact__personal{
+    .contact__personal {
         background-color: #fff;
         margin-top: 52px;
         padding: 60px 0px;
-        .contact__personal-title{
+        .contact__personal-title {
             padding-bottom: 35px;
             font-size: 24px;
             color: #000;
             font-weight: 400;
             border-bottom: 2px solid $page;
         }
-        form{
+        form {
             padding-top: 40px;
-            
+
             position: relative;
-            input{
+            input {
                 width: 360px;
                 padding: 20px 20px 20px 20px;
                 font-size: 16px;
                 color: #9e9e9e;
-                & + input{
+                & + input {
                     margin-left: 30px;
                     margin-bottom: 30px;
                 }
             }
-            .text{
+            .text {
                 position: absolute;
                 left: 194px;
                 width: 750px;
                 display: block;
             }
-            button{
+            button {
                 margin-top: 106px;
                 padding: 19px 35px;
                 border-radius: 22px;
@@ -1563,34 +1563,34 @@ footer {
                 font-size: 16px;
                 font-weight: 400;
                 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
-            }              
+            }
         }
     }
 }
 // contact end
 // terms start
-.terms{
+.terms {
     background-color: $page;
     padding: 60px 0px;
 }
-.terms__title{
+.terms__title {
     background-color: #fff;
     padding: 41px 0px 41px 31px;
     font-size: 24px;
     color: #000;
     margin-bottom: 1px;
 }
-.terms__box{
+.terms__box {
     background-color: #fff;
     padding: 30px 0px 30px 31px;
     margin-bottom: 1px;
-    .terms__box-text{
+    .terms__box-text {
         font-size: 16px;
         line-height: 30px;
         color: #555;
         margin-bottom: 47px;
     }
-    .terms__box-bottom__title{
+    .terms__box-bottom__title {
         font-size: 24px;
         font-weight: 400;
         color: #000;
@@ -1598,55 +1598,63 @@ footer {
 }
 // terms end
 // register start
-.register{
+.register {
     background-color: $page;
     padding: 70px 0px 120px;
 }
-.register__inner{
+.register__inner {
     max-width: 555px;
     background-color: #fff;
     margin: 0 auto;
     padding: 60px 0px;
-    .top__box{
+    .top__box {
         margin-bottom: 1px;
         text-align: center;
         border-bottom: 1px solid $page;
     }
-    .top__box-title{
+    .top__box-title {
         font-size: 26px;
         font-weight: 400;
         color: #000;
         margin-bottom: 20px;
     }
-    .top__box-text{
-    width: 405px;
-    margin: 0 auto;
-    font-size: 16px;
-    line-height: 28px;
-    color: #555;
-    margin-bottom: 20px;
+    .top__box-text {
+        width: 405px;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 28px;
+        color: #555;
+        margin-bottom: 20px;
     }
-    form{
+    form {
         padding: 0px 40px;
-        .title{
+        .title {
             font-size: 16px;
             font-weight: 400;
             color: #000;
             margin-bottom: 15px;
             margin-top: 30px;
         }
-        input{
+        input {
             width: 455px;
             padding: 19px 20px;
             background-color: $page;
             border: none;
         }
-        button{
-          margin-top: 30px;
-          margin-bottom: 40px;
+        button {
+            margin-top: 30px;
+            margin-bottom: 40px;
+            padding: 19px 35px;
+            border-radius: 22px;
+            border: none;
+            background-color: $bg;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
         }
     }
-    span{
+    span {
         margin-left: 50px;
         color: #898f96;
         font-size: 16px;
@@ -1655,114 +1663,238 @@ footer {
 }
 // register end
 // how it work start
-.breadcrumbs__howItwork{
+.breadcrumbs__howItwork {
     padding: 58px 0px 30px;
     background-image: url(../images/breadbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 180px;
-   color: #fff;
-   text-align: center;
-   .breadcrumbs__howItwork-title{
-       font-size: 30px;
-       font-weight: 500;
-       line-height: 50px;
-       span{
-           font-weight: 300;
-       }
+    color: #fff;
+    text-align: center;
+    .breadcrumbs__howItwork-title {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 50px;
+        span {
+            font-weight: 300;
+        }
     }
-    .breadcrumbs__list{
+    .breadcrumbs__list {
         margin-top: 52px;
-        li{
+        li {
             display: inline-block;
         }
-        a{
+        a {
             color: #fff;
         }
-    } 
+    }
 }
-.howItwork__first-inner{
+.howItwork__first-inner {
     display: flex;
     justify-content: space-between;
     padding: 100px 0px;
-    .howItwork__first-box{
+    .howItwork__first-box {
         max-width: 487px;
         padding-top: 37px;
-        .title{
+        .title {
             font-size: 30px;
             font-weight: 400;
             color: #000;
             margin-bottom: 35px;
         }
-        .text{
+        .text {
             font-size: 16px;
             line-height: 30px;
             color: #555;
             margin-bottom: 18px;
         }
+        button{
+            padding: 19px 35px;
+            border-radius: 22px;
+            border: none;
+            background-color: $bg;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+        }
     }
-    
 }
-.howItwork__second{
+.howItwork__second {
     background-color: $page;
 }
-.howItwork__second-inner{
+.howItwork__second-inner {
     display: flex;
     justify-content: space-between;
     padding: 100px 0px;
-    .howItwork__second-box{
+    .howItwork__second-box {
         max-width: 487px;
         padding-top: 37px;
-        .title{
+        .title {
             font-size: 30px;
             font-weight: 400;
             color: #000;
             margin-bottom: 35px;
         }
-        .text{
+        .text {
             font-size: 16px;
             line-height: 30px;
             color: #555;
             margin-bottom: 18px;
         }
-        button{
+        button {
+            padding: 19px 35px;
+            border-radius: 22px;
+            border: none;
             background-color: #fff;
             color: $bg;
+            font-size: 16px;
+            font-weight: 400;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);      
         }
     }
-    
 }
-.howItwork__third-inner{
+.howItwork__third-inner {
     display: flex;
     justify-content: space-between;
     padding: 100px 0px;
-    .howItwork__third-box{
+    .howItwork__third-box {
         max-width: 487px;
         padding-top: 37px;
-        .title{
+        .title {
             font-size: 30px;
             font-weight: 400;
             color: #000;
             margin-bottom: 35px;
         }
-        .text{
+        .text {
             font-size: 16px;
             line-height: 30px;
             color: #555;
             margin-bottom: 18px;
         }
-        button{
+        button {
+            padding: 19px 35px;
+            border-radius: 22px;
+            border: none;
             background-color: #fff;
             color: $bg;
+            font-size: 16px;
+            font-weight: 400;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);      
         }
     }
-    
 }
-
-
-
-
-
-
 // how it work end
+// pricing start
+.pricing{
+    padding: 120px 0px;
+    background-color: $page;
+}
+.pricing__text-box{
+    text-align: center;
+    .title{
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .text{
+        max-width: 695px;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 30px;
+        color: #555;
+        margin-top: 22px;
+    }
+}
+.pricing__inner-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+    .pricing__item{
+        background-color: #fff;
+        width: 360px;
+        & + .pricing__item{
+            margin-left: 20px;
+        }
+        .pricing__item-title{
+            text-align: center;
+            padding: 28px 0px;
+            margin: 0px 30px;
+            border-bottom: 1px solid $page;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        .pricing__item-price{
+            text-align: center;
+            margin: 30px 0px;
+            font-size: 36px;
+            font-weight: 500;
+            span{
+                font-size: 16px;
+                color: #555;
+                font-weight: 400;
+            }  
+        }
+        ul{
+            li{
+                font-size: 16px;
+                font-weight: 400;
+                color: #555;
+                list-style: outside;
+                margin-left: 53px;
+                line-height: 36px;
+            }
+        }
+        
+    }
+}
+.pricing__item-red{
+    border-top: 3px solid #ff6a6c;
+    .pricing__btn{  
+        text-align: center;
+        button{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        padding: 19px 80px;
+        border: none;
+        background-color: #ff6a6c;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+        margin: 30px 0px;
+        }
+    }
+}
+.pricing__item-blue{
+    border-top: 3px solid #0674ed;
+    .pricing__btn{  
+        text-align: center;
+        button{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        padding: 19px 80px;
+        border: none;
+        background-color: #0674ed;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+        margin: 30px 0px;
+        }
+    }
+}
+.pricing__item-yellow{
+    border-top: 3px solid #feb71d;
+    .pricing__btn{  
+        text-align: center;
+        button{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        padding: 19px 80px;
+        border: none;
+        background-color: #feb71d;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+        margin: 30px 0px;
+        }
+    }
+}
+// pricing end
