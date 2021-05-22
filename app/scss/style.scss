@@ -74,14 +74,95 @@
     }
 }
 // ---------------------------------------------------------
-
-
-
-
-
-
-
-
+.bell__menu-box{
+    margin-top: 82px;
+    position: relative;
+    height: 100px;
+    padding-left: 33px;
+    &:hover{
+        .bell__menu {
+            height: auto;
+            overflow: auto;
+            border-top: 1px solid #0674ec;
+        }
+    }
+}
+.bell__menu{
+    box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
+    background-color: #fff;
+    position: absolute;
+    width: 370px;
+    top: 63px;
+    right: -272px;
+    z-index: 5;
+    transition: all .3s;
+    height: 0;
+    padding: 0px 25px;
+    overflow: hidden;
+    .bell__menu-item-title{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+        .bell__menu-item-title-text{
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .bell__menu-item-title-link{
+            font-size: 15px;
+            font-weight: 400;
+            color: $bg;
+        }
+    } 
+    .bell__menu-item{
+        display: flex;
+        align-items: center;
+        padding: 20px 0px;
+        border-top: 1px solid #e8ebf0;
+        .bell__menu-item-img{
+            height: 40px;
+            width: 40px;
+            background-color: #3a2c29;
+            border-radius: 50%;
+        }
+        .bell__menu-item-info{
+            margin-left: 14px;
+            width: 228px;
+            .bell__menu-item-info-text{
+                font-size: 16px;
+                font-weight: 500;
+                color: #333;
+                line-height: 20px;
+                span{
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #747a86;
+                }
+            }
+            .bell__menu-item-info-time{
+                color: #747a86;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 28px;
+            }
+        }
+        .bell__menu-item-icon{
+            height: 32px;
+            width: 32px;
+            background-color: #e6f1fd;
+            border-radius: 50%;
+            position: relative;
+            &::before{
+                content: '\f08a';
+                font-family: 'icomoon';
+                position: absolute;
+                top: 7px;
+                left: 8px;
+                color: $bg;
+                font-size: 15px;
+            }
+        }
+    }
+}
 // mail
 .mail__menu-box{
     margin-top: 82px;
@@ -106,8 +187,7 @@
     z-index: 5;
     transition: all .3s;
     height: 0;
-    overflow: hidden;
-      
+    overflow: hidden; 
     .mail__menu-item-title{
         display: flex;
         justify-content: space-between;
@@ -433,18 +513,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .menu {
     display: flex;
     justify-content: space-between;
@@ -493,18 +561,6 @@
         font-size: 15px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 // header end
 // digital start
 .digital {
