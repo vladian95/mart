@@ -4,6 +4,7 @@
 
 .header__top {
     background-color: #eef1f3;
+    height: 100px;
 }
 .header__top-inner {
     display: flex;
@@ -33,12 +34,13 @@
     text-align: center;
 }
 .header__box-icon {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
     .icon__item {
         position: relative;
         color: #7e8fa1;
-        & + .icon__item {
-            margin-left: 32px;
-        }
         span {
             position: absolute;
             height: 22px;
@@ -71,10 +73,222 @@
         }
     }
 }
+// ---------------------------------------------------------
+
+
+
+
+
+
+
+
+// mail
+.mail__menu-box{
+    margin-top: 82px;
+    position: relative;
+    height: 100px;
+    padding-left: 33px;
+    &:hover{
+        .mail__menu {
+            height: auto;
+            overflow: auto;
+            border-top: 1px solid #0674ec;
+        }
+    }
+}
+.mail__menu{
+    box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
+    background-color: #fff;
+    position: absolute;
+    width: 370px;
+    top: 63px;
+    right: -8px;
+    z-index: 5;
+    transition: all .3s;
+    height: 0;
+    overflow: hidden;
+      
+    .mail__menu-item-title{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 24px;
+        .mail__menu-item-title-text{
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .mail__menu-item-title-link{
+            font-size: 15px;
+            font-weight: 400;
+            color: $bg;
+        }
+    } 
+    .mail__menu-item{
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #e8ebf0;
+        padding: 20px 24px; 
+        .mail__menu-item-img{
+            height: 40px;
+            width: 40px;
+            background-color: #3a2c29;
+            border-radius: 50%;
+        }
+        .mail__menu-item-info{
+            margin-left: 26px;
+            .mail__menu-item-personal{
+                display: flex;
+                justify-content: space-between;
+                .mail__menu-item-name{
+                    font-size: 16px;
+                    color: #333;
+                    font-weight: 500;
+                    position: relative;
+                    &::after{
+                        content: '\f003';
+                        position: absolute;
+                        font-family: 'icomoon';
+                        right: -41px;
+                        color: $bg;
+                    }
+                }
+                .mail__menu-item-link{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: $bg;
+                } 
+            } 
+            .mail__menu-item-text{
+                font-size: 15px;
+                line-height: 30px;
+                color: #555;
+            }
+        }    
+    }
+}
+// basket
+.basket__menu-box{
+    margin-top: 82px;
+    position: relative;
+    height: 100px;
+    padding-left: 33px;
+    &:hover{
+        .basket__menu {
+            height: auto;
+            overflow: auto;
+            border-top: 1px solid #0674ec;
+        }
+    }
+}
+.basket__menu{ 
+    box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
+    background-color: #fff;
+    position: absolute;
+    width: 400px;
+    top: 63px;
+    right: -8px;
+    z-index: 5;
+    transition: all .3s;
+    height: 0;
+    overflow: hidden;    
+    padding-bottom: 0px;
+    a{
+        font-size: 15px;
+        line-height: 44px;
+        color: #54667a;
+    }
+}
+.basket__menu-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 25px;
+    border-bottom: 1px solid #e8ebf0;
+    .img__basket-menu{
+        height: 70px;
+        width: 80px;
+        background-color: #828282;
+    }
+    .basket__menu-item-info{
+        margin-left: 15px;
+        .title{
+            font-size: 16px;
+            color: #000;
+            line-height: 22px;
+        }
+        .html{
+            margin-left: 22px;
+            color: #7347c1;
+            position: relative;
+            &::before{
+                content: '\f13b';
+                font-family: 'icomoon';
+                position: absolute;
+                left: -20px;
+            }
+        }
+    }
+    .basket__menu-item-price{
+        .bin{
+            height: 32px;
+            width: 32px;
+            border-radius: 50%;
+            background-color: #f1ecf9;
+            position: relative;
+            & + .price{
+                margin-top: 5px;
+            }
+            &::before{
+                content: '\e9ac';
+                position: absolute;
+                font-family: 'icomoon';
+                top: 7px;
+                left: 8px;
+                font-size: 15px;
+                color: #818c98;
+            }
+        }
+        .price{
+            padding: 7px 7px;
+            border-radius: 13px;
+            background-color: #e6f1fd;
+            font-size: 16px;
+            color: $bg;
+        }
+    } 
+    
+}
+.total__box{
+    padding: 25px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+}
+.basket__menu-item-link-box{
+    display: flex;
+    justify-content: center;
+    .basket__menu-item-link{
+        font-size: 15px;
+        width: 50%;
+        text-align: center;
+        color: #fff;
+        padding: 15px 0px;
+    }
+    .basket__menu-item-cart{
+        background-color: #7347c1;
+    }
+    .basket__menu-item-checkout{
+        background-color: #0674ec;
+    }
+}
+// user
+.user__menu-box{
+    position: relative;
+}
 .user {
     display: flex;
     align-items: center;
     margin-left: 49px;
+    
     .user__images {
         height: 50px;
         width: 50px;
@@ -97,6 +311,140 @@
         }
     }
 }
+.user__menu-box {
+    position: relative;
+    height: 100px;
+    margin-top: 50px;
+    &:hover{
+        .user__menu {
+            height: auto;
+            overflow: auto;
+            border-top: 1px solid #0674ec;
+        }
+    }
+} 
+.user__menu{ 
+    box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
+    background-color: #fff;
+    position: absolute;
+    padding: 0px 40px;
+    width: 270px;
+    top: 78px;
+    right: 0px;
+    z-index: 5;
+    transition: all .3s;
+    height: 0;
+    overflow: hidden;    
+    a{
+        font-size: 15px;
+        line-height: 44px;
+        color: #54667a;
+        margin-bottom: 15px;
+    }
+}
+.user__icon{
+    &::before{
+        content: '\f2c0';
+        position: absolute;
+        font-family: 'icomoon';
+        left: 17px;
+    }
+}
+.house__icon{
+    &::before{
+        content: '\f015';
+        position: absolute;
+        font-family: 'icomoon';
+        left: 17px;
+    }
+}
+.gear__icon{
+    &::before{
+        content: '\f013';
+        position: absolute;
+        font-family: 'icomoon';
+        left: 17px;
+    }
+}
+.basket__icon{
+    &::before{
+        content: '\e93a';
+        position: absolute;
+        font-family: 'icomoon';
+        left: 17px;
+    }
+}
+.heart__icon{
+    &::before{
+        content: '\f08a';
+        position: absolute;
+        font-family: 'icomoon';
+        left: 17px;
+    }
+}
+.chart__icon{
+    &::before{
+        content: '\f200';
+        position: absolute;
+        font-family: 'icomoon';
+        left: 17px;
+    }
+}
+.stats__icon{
+    &::before{
+        content: '\e99c';
+        position: absolute;
+        font-family: 'icomoon';
+        left: 17px;
+    }
+}
+.upload__icon{
+    &::before{
+        content: '\f093';
+        position: absolute;
+        font-family: 'icomoon';
+        left: 17px;
+    }
+}
+.inbox__icon{
+    &::before{
+        content: '\f01c';
+        position: absolute;
+        font-family: 'icomoon';
+        left: 17px;
+    }
+}
+.case__icon{
+    &::before{
+        content: '\f0b1';
+        position: absolute;
+        font-family: 'icomoon';
+        left: 17px;
+    }
+}
+.exit__icon{
+    &::before{
+        content: '\ea14';
+        position: absolute;
+        font-family: 'icomoon';
+        left: 17px;
+        font-size: 15px;
+        color: #54667a;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -145,6 +493,18 @@
         font-size: 15px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 // header end
 // digital start
 .digital {
