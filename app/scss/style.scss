@@ -2645,8 +2645,96 @@ footer {
     }
 }
 
-
-
-
-
+  
+.category__box{
+    background-color: $page;
+    padding: 80px 0px;
+}
+.sidebar__range-slider{
+    margin-top: 29px;
+    form{
+        margin-top: 20px;
+    }
+}
+.filter__products{
+    margin-top: 29px;
+}
+.sidebar__item{
+    background-color: #fff;
+    width: 263px;
+    padding: 0px 29px 20px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+    .sidebar__item-title{
+        padding: 25px 0px;
+        border-bottom: 1px solid #e7ebee;
+        font-size: 20px;
+    }
+    .filter__list{
+        &::before{
+            content: '\f1db';
+            position: absolute;
+            font-family: 'icomoon';
+            left: 0;
+            font: 10px;
+            color: #747b86;
+            font-size: 10px;
+        }
+    }
+    li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 19px;
+        position: relative;
+        &::before{
+            content: '\f105';
+            position: absolute;
+            font-family: 'icomoon';
+            left: 0;
+            font: 10px;
+            color: #747b86;
+        }
+        a{
+            font-size: 15px;
+            line-height: 36px;
+            color: #555;
+            transition: all .2s;
+            &:hover{
+                color: $bg;
+            }
+        }
+        span{
+            font-size: 15px;
+            line-height: 36px;
+            color: #747b86;
+        }
+    }
+}
+.irs-to,
+.irs-from{
+    display: none;
+}
+.irs--flat .irs-line{
+    background-color: #efedf3;
+    height: 6px;
+}
+.irs--flat .irs-bar{
+    background-color: #7347c1;
+    height: 6px;
+}
+.irs--flat .irs-handle>i:first-child{
+    display: none;
+}
+.irs--flat .irs-handle{
+    top: 19px;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 4px solid $bg;
+}
+.irs--flat .irs-max, .irs--flat .irs-min{
+    display: none;
+}
 // category end

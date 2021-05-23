@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?kzl7eg');
-  src:  url('../fonts/icomoon.eot?kzl7eg#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?kzl7eg') format('truetype'),
-    url('../fonts/icomoon.woff?kzl7eg') format('woff'),
-    url('../fonts/icomoon.svg?kzl7eg#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?f8he0r');
+  src:  url('../fonts/icomoon.eot?f8he0r#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?f8he0r') format('truetype'),
+    url('../fonts/icomoon.woff?f8he0r') format('woff'),
+    url('../fonts/icomoon.svg?f8he0r#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -79,6 +79,9 @@
 .icon-comment-o:before {
   content: "\f0e5";
 }
+.icon-angle-right:before {
+  content: "\f105";
+}
 .icon-angle-down:before {
   content: "\f107";
 }
@@ -99,6 +102,9 @@
 }
 .icon-google:before {
   content: "\f1a0";
+}
+.icon-circle-thin:before {
+  content: "\f1db";
 }
 .icon-pie-chart:before {
   content: "\f200";
@@ -121,5 +127,7 @@
 .icon-exit:before {
   content: "\ea14";
 }
+
+
 
 
