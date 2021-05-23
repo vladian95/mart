@@ -2533,3 +2533,120 @@ footer {
     }
 }
 // pricing end
+// category start
+.category-breadcrumbs{
+    padding: 58px 0px 30px;
+    background-image: url(../images/breadbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 180px;
+    color: #fff;
+    .category-breadcrumbs__inner{
+        text-align: center;
+        .category__breadcrumbs-title{
+            font-size: 26px;
+            font-weight: 400;
+            span{
+                font-weight: 500;
+            }
+        }
+        .category-search{
+            margin-top: 32px;
+            margin-bottom: 38px;
+            form{
+                position: relative;
+                input{
+                    width: 555px;
+                    padding: 21px 30px;
+                    border-radius: 32px;
+                    border: none;
+                    outline: none;
+                }
+                button{
+                    position: absolute;
+                    top: 0;
+                    right: 292px;
+                    padding: 21px 30px;
+                    border-radius: 32px;
+                    border: none;
+                    background-color: $bg;
+                    color: #fff;
+                    outline: none;
+                }
+            }
+        }
+        .category-breadcrumbs__list{
+            font-style: 15px;
+            font-weight: 400;
+            margin-bottom: 28px;
+            li{
+                display: inline-block;
+                a{
+                    color: #fff;
+                }
+            }
+        }
+        
+    }
+}
+
+.category__inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    .category__inner-header__links{
+        display: flex;
+        justify-content: space-between;
+        li{
+            & + li{
+                margin-left: 50px;
+            }
+            a{
+                color: #555555;
+            }
+            .active{
+                color: $bg;
+            }
+        }
+    }
+    .category__inner-header__selects{
+        display: flex;
+        align-items: center;
+        select{
+            width: 218px;
+            padding: 15px 0px 15px 19px;
+            border: 1px solid #eceff2;
+            border-radius: 2px;
+            option{
+                span{
+                    font-size: 14px;
+                    color: #747b86;
+                }
+            }
+            & + select{
+                margin-left: 29px;
+            }
+        }
+        .grid-active{
+            height: 54px;
+            padding: 16px 20px;
+            border: 1px solid #eceff2;
+            border-radius: 2px;
+            margin-left: 29px;
+            li{
+                display: inline-block;
+                & + li{
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// category end
