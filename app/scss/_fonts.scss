@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?f8he0r');
-  src:  url('../fonts/icomoon.eot?f8he0r#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?f8he0r') format('truetype'),
-    url('../fonts/icomoon.woff?f8he0r') format('woff'),
-    url('../fonts/icomoon.svg?f8he0r#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?1w4gtl');
+  src:  url('../fonts/icomoon.eot?1w4gtl#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?1w4gtl') format('truetype'),
+    url('../fonts/icomoon.woff?1w4gtl') format('woff'),
+    url('../fonts/icomoon.svg?1w4gtl#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -30,6 +30,12 @@
 }
 .icon-envelope-o:before {
   content: "\f003";
+}
+.icon-th-large:before {
+  content: "\f009";
+}
+.icon-th-list:before {
+  content: "\f00b";
 }
 .icon-cog:before {
   content: "\f013";
@@ -96,6 +102,12 @@
 }
 .icon-youtube-play:before {
   content: "\f16a";
+}
+.icon-long-arrow-left:before {
+  content: "\f177";
+}
+.icon-long-arrow-right:before {
+  content: "\f178";
 }
 .icon-vk:before {
   content: "\f189";
