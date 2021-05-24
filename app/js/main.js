@@ -16,6 +16,18 @@ $(function(){
         prefix: "$"
     });
 
+    $('.icon-th-list').on('click', function(){
+        $('.category__item').addClass('list');
+        $('.icon-th-list').addClass('active');
+        $('.icon-th-large').removeClass('active');
+    });
+
+    $('.icon-th-large').on('click', function(){
+        $('.category__item').removeClass('list');
+        $('.icon-th-large').addClass('active');
+        $('.icon-th-list').removeClass('active');
+    });
+
     // $('.weekly__content-inner').slick({
     //     slidesToShow: 1,
     //     slidesToScroll: 1,
