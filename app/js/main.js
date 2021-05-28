@@ -40,6 +40,15 @@ $(function(){
         $('.icon-th-list').removeClass('active');
     });
 
+    $('.single-tabs__box .tab').on('click', function (event) {
+        var id = $(this).attr('data-id');
+        $('.single-tabs__box').find('.tab-item').removeClass('active-tab').hide();
+        $('.single-tabs__box .tabs').find('.tab').removeClass('active');
+        $(this).addClass('active');
+        $('#' + id).addClass('active-tab').fadeIn();
+        return false;
+    });
+
     // $('.weekly__content-inner').slick({
     //     slidesToShow: 1,
     //     slidesToScroll: 1,

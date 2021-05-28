@@ -3714,6 +3714,7 @@ footer {
         .single__item{
             background-color: #fff;
             text-align: center;
+            margin-bottom: 30px;
             .single__item-box-btn{
                 padding: 30px 0px;
                 .heart__single{
@@ -3778,6 +3779,65 @@ footer {
                 }
             } 
         } 
+        .single-tabs__box{
+            background-color: #fff;
+        }
+        .tabs{
+            display: flex;
+            .tab{
+                &.active{
+                    border-bottom: none;
+                    border-top: 3px solid $bg;
+                }
+                width: 100%;
+                text-align: center;
+                background-color: #fff;
+                border: 1px solid $page;
+                font-size: 17px;
+                color: #000;
+                font-weight: 500;
+                padding: 28px 0px;
+            }
+        }
+        .tab__content{
+            .tab-item{
+                padding: 0px 30px 80px;
+                display: none;
+                &:first-child{
+                    display: block;
+                }
+                .tab-item__title{
+                    margin: 52px 0px 30px;
+                    font-size: 24px;
+                    color: #000;
+                }
+                .tab-item__text{
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #555;
+                }
+                li{
+                    font-size: 16px;
+                    color: #555;
+                    padding-left: 31px;
+                    line-height: 34px;
+                }
+                .tab-item__list{
+                    
+                    li{
+                        position: relative;
+                        &::before{
+                            content: '\e900';
+                            position: absolute;
+                            font-family: 'icomoon';
+                            left: 0;
+                            font-weight: 500;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
     }
     .single-sidebar__inner{
         max-width: 360px;
@@ -4041,13 +4101,4 @@ footer {
         }
     }
 }
-
-
-
-  
-
-
-
-
-
 // single end 
