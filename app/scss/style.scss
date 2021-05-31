@@ -1754,16 +1754,22 @@ footer {
         line-height: 28px;
         font-weight: 400;
         margin-bottom: 8px;
-        margin-top: 15px;
+        margin-top: 42px;
+    }
+    &-text-Newsletter{
+        margin-top: 25px;
     }
 }
 .footer_col-logo {
     max-width: 288px;
     padding-right: 10px;
+    position: relative;
 }
 .footer__col-title-logo {
     display: flex;
     align-items: center;
+    position: absolute;
+    top: -20px;
 }
 .footer__info {
     margin-top: 14px;
@@ -1914,6 +1920,7 @@ footer {
         width: 110px;
         border-radius: 22px;
         outline: none;
+        color: #fff;
     }
 }
 // footer end
@@ -4102,3 +4109,4 @@ footer {
     }
 }
 // single end 
+@import "media";
