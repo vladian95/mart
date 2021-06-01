@@ -19,15 +19,11 @@
                 <div class="header__top">
                     <div class="container">
                         <div class="header__top-inner">
-                            <div class="header__logo">
-                                <a href="#">
-                                    <img src="images/logo.png" alt="logo">
-                                </a>
-
-                            </div>
-                            <a class="logo__name" href="#">
-                                Mart<span>Place</span>
+                            <a class="header__logo header__logo-adaptive">
+                                <img src="images/logo.png" alt="logo">
+                                <p>Mart<span>Place</span></p>    
                             </a>
+                            
                             <a href="#" class="header__seller">
                                 Become a Seller
                             </a>
@@ -223,8 +219,10 @@
                                         <li><a class="case__icon" href="#">Withdrawals</a></li>
                                         <li><a class="exit__icon" href="#">Logout</a></li>
                                     </ul>
-
                                 </div>
+                            </div>
+                            <div class="header-top__btn icon-user-o">
+
                             </div>
                         </div>
                     </div>
@@ -233,21 +231,25 @@
                     <div class="container">
 
                         <nav class="menu">
-
-                            <div class="menu__inner">
-                                <div class="home__box">
+                            <div class="menu__btn">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                            <ul class="menu__inner">
+                                <li class="home__box">
                                     <a href="#">HOME</a>
-                                    <div class="home__menu">
+                                    <div class="home__menu adaptive__menu">
                                         <ul>
                                             <li class="home__li"><a href="#">Home One Multi User</a></li>
                                             <li><a href="#">Home Two Single User</a></li>
                                             <li><a href="#">Home Three Product</a></li>
                                         </ul>
                                     </div>
-                                </div>
-                                <div class="allProducts__box">
+                                </li>
+                                <li class="allProducts__box">
                                     <a href="#">ALL PRODUCTS</a>
-                                    <div class="allProducts__menu">
+                                    <div class="allProducts__menu adaptive__menu">
                                         <ul>
                                             <li class="allProducts__li"><a href="#">Recent Items</a></li>
                                             <li><a href="#">Popular Items</a></li>
@@ -257,10 +259,10 @@
                                             <li><a href="#">Top Authors</a></li>
                                         </ul>
                                     </div>
-                                </div>
-                                <div class="wordpress__box">
+                                </li>
+                                <li class="wordpress__box">
                                     <a href="#">WORDPRESS</a>
-                                    <div class="wordpress__menu">
+                                    <div class="wordpress__menu adaptive__menu">
                                         <ul>
                                             <li class="wordpress__li"><a href="#">Popular Items</a></li>
                                             <li><a href="#">Admin Templates</a></li>
@@ -273,14 +275,14 @@
                                             <li><a href="#">Landing Pages</a></li>
                                         </ul>
                                     </div>
-                                </div>
-                                <div class="festures__box">
+                                </li>
+                                <li class="festures__box">
                                     <a href="#">FESTURES</a>
-                                </div>
+                                </li>
 
-                                <div class="pages__box">
+                                <li class="pages__box">
                                     <a href="#">PAGES</a>
-                                    <div class="pages__menu">
+                                    <div class="pages__menu adaptive__menu">
                                         <div class="pages__menu-item pages__menu-item__martplace">
                                             <div class="pages__menu-item__title">MartPlace Pages</div>
                                             <div class="pages__menu-item__content-box">
@@ -363,8 +365,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                </li>
+                            </ul>
 
                             <div class="header__menu-form">
                                 <form>
@@ -974,9 +976,9 @@
                                 <li><a href="#">Sellers Faq</a></li>
                             </ul>
                         </div>
-                        <div class="footer__col">
+                        <div class="footer__col footer__col-social">
                             <div class="footer__col-title">Newsletter</div>
-                            <div class="footer__col-text">
+                            <div class="footer__col-text footer__col-text-Newsletter">
                                 Subscribe to get the latest news, update and offer information. Don't worry, we won't
                                 send
                                 spam!
