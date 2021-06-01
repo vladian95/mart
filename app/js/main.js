@@ -49,6 +49,14 @@ $(function(){
         return false;
     });
 
+    $('.menu__btn').on('click', function(){
+        $('.menu__inner').slideToggle();
+    });
+
+    $('.header-top__btn').on('click', function(){
+        $('.user__menu-box').toggleClass('active');
+    });
+    
     // $('.weekly__content-inner').slick({
     //     slidesToShow: 1,
     //     slidesToScroll: 1,

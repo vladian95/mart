@@ -12,6 +12,22 @@
     height: 90px;
     align-items: center;
 }
+.header__logo{
+    position: relative;
+    p{
+        position: absolute;
+        top: 10px;
+        display: inline-block;
+        font-size: 30px;
+        font-weight: 700;
+        margin-left: 6px;
+        color: #000;
+        span {
+            color: $bg;
+        }
+    }
+}
+
 .logo__name {
     font-size: 30px;
     font-weight: 700;
@@ -512,18 +528,29 @@
         color: #54667a;
     }
 }
+.header-top__btn{
+    display: none;
+}
 // ---------------------------------------------------------
 .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: inline-block;
     height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
     .header__menu-form {
-        max-width: 360px;
-        position: relative;
+        width: 305px;
+        text-align: right;
+        position: absolute;
+        right: 0;
+        form{
+            position: relative;
+            max-width: 305px;
+            display: block;   
+        }
         input {
             display: block;
-            width: 100%;
+            max-width: 360px;
             border-radius: 17px;
             border: 1px solid $grey;
             height: 45px;
@@ -548,9 +575,9 @@
     }
 }
 .menu__inner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    li{
+        display: inline-block;
+    }
     a{
         color: #000;
         &:hover{
