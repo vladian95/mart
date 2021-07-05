@@ -1005,13 +1005,12 @@
     }
 }
 .weekly__content-content__box {
-    display: flex;
-}
-.slick-slide {
-    display: flex;
+    img{
+        float: left;
+    }
 }
 .weekly__content {
-    padding: 50px 50px 0px 50px;
+    padding: 50px 50px 28px 575px;
     background-color: #fff;
     .weekly__content-title {
         font-size: 24px;

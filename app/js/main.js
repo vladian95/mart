@@ -57,12 +57,12 @@ $(function(){
         $('.user__menu-box').toggleClass('active');
     });
     
-    // $('.weekly__content-inner').slick({
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     prevArrow: '<button class="slick-arrow slick-prev"><img src="images/icons/arrow-left.png" alt="#"></button>',
-    //     nextArrow: '<button class="slick-arrow slick-next"><img src="images/icons/arrow-right.png" alt="#"></button>',
-    // });
+    $('.weekly__content-inner').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: '<button class="slick-arrow slick-prev"><img src="images/icons/arrow-left.png" alt="#"></button>',
+        nextArrow: '<button class="slick-arrow slick-next"><img src="images/icons/arrow-right.png" alt="#"></button>',
+    });
 
     var mixer = mixitup('.newest__items-inner');
   
