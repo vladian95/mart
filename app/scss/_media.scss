@@ -17,6 +17,9 @@
     .feedback__item-text{
         text-align: start;
     }
+    .news__inner-item{
+        max-width: 48%;
+    }
 }
 @media (max-width: 1160px){
     .footer__inner{
@@ -187,6 +190,12 @@
         & + & {
             margin-left: 40px;
         }
+    }
+    .news__inner-item{
+        max-width: 100%;
+    }
+    .news__inner-item-text{
+        margin: 20px 12px 30px 28px;
     }
 }
 @media (max-width: 840px){
@@ -556,6 +565,12 @@
             font-size: 23px;
         }
     } 
+    .news__inner-item-title{
+        font-size: 18px;
+    }
+    .news__inner-item-text{
+        font-size: 14px;
+    }
 }
 @media (max-width: 360px){
     .header__logo-adaptive{
