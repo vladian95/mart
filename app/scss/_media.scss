@@ -68,6 +68,14 @@
         margin: 0 auto;
     }
 }
+@media (max-width: 1115px){
+    .rocks__item{
+        max-width: 100%;
+        & + .rocks__item{
+            margin-top: 50px;
+        }
+    }
+}
 @media (max-width: 1070px){
     .newest__web-box{
         display: block;
@@ -435,6 +443,12 @@
     .slick-next{
         right: 107px;
         top: -108px;
+    }
+    .rocks__item-title{
+        font-size: 27px;
+    }
+    .rocks__item-text{
+        font-size: 14px;
     }
 }
 @media (max-width: 449px){

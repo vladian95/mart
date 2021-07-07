@@ -1441,13 +1441,14 @@
 .rocks__inner {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 100px 0px;
 }
 .rocks__item {
     color: #fff;
     max-width: 550px;
     text-align: center;
-
+    padding: 0px 15px;
     button {
         margin-top: 35px;
         width: 190px;
@@ -1458,6 +1459,7 @@
         background-color: #fff;
         color: $bg;
         outline: none;
+        cursor: pointer;
     }
     .rocks__btn-buy {
         color: #7347c1;
