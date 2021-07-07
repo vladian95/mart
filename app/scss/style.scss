@@ -1142,6 +1142,7 @@
     padding: 0px 29px;
     margin-bottom: 50px;
     position: relative;
+    flex-wrap: wrap;
     &::before {
         content: "";
         position: absolute;
@@ -1163,7 +1164,7 @@
     }
 }
 .newest__web-box {
-    height: 110px;
+    min-height: 110px;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -1184,10 +1185,19 @@
 }
 .newest__items-inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-left: -30px;
     flex-wrap: wrap;
     padding: 50px 0px;
     .newest__item {
+        .mainImg-item{
+            width: 100%;
+            min-height: 230px;
+            background-color: #3c6490;
+        }
+        max-width: 360px;
+        flex-basis: calc(25% - 30px);
+        margin-left: 30px;
         margin-bottom: 30px;
     }
 }
@@ -1396,8 +1406,7 @@
     box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
     border-radius: 3px;
     position: relative;
-    margin-bottom: 31px;
-    margin-top: 40px;
+    margin: 40px 9px 31px 9px ;
     &::before {
         content: "01";
         position: absolute;

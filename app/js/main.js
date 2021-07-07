@@ -5,6 +5,22 @@ $(function(){
         slidesToScroll: 3,
         prevArrow: '<button class="slick-arrow slick-prev"><img src="images/icons/arrow-left.png" alt="#"></button>',
         nextArrow: '<button class="slick-arrow slick-next"><img src="images/icons/arrow-right.png" alt="#"></button>',
+        responsive: [
+            {
+                breakpoint: 1161,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              }
+            },
+            {
+                breakpoint: 821,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                }
+            },
+        ]
     });
 
     $(".js-range-slider").ionRangeSlider({
