@@ -750,6 +750,18 @@
     .search__inner-box2{
         width: 75%;
     }
+    .register__inner{
+        .top__box-text{
+            font-size: 14px;
+            line-height: 18px;
+        }
+        form{
+            padding: 0px 8px;
+        }
+        span{
+            font-size: 14px;
+        }
+    } 
 }
 @media (max-width: 406px){
     .footer__social-link{

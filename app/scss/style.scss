@@ -2300,7 +2300,7 @@ footer {
         margin-bottom: 20px;
     }
     .top__box-text {
-        width: 405px;
+        max-width: 405px;
         margin: 0 auto;
         font-size: 16px;
         line-height: 28px;
@@ -2317,7 +2317,7 @@ footer {
             margin-top: 30px;
         }
         input {
-            width: 455px;
+            width: 100%;
             padding: 19px 20px;
             background-color: $page;
             border: none;
