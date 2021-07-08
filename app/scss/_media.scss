@@ -542,6 +542,11 @@
         padding-left: 0px;
         border-top: 0.5px solid #e8eaf3;
     }
+    .page-404__inner{
+        img{
+            width: 100%;
+        }
+    }
 }
 @media (max-width: 420px){
     .user{
@@ -652,6 +657,11 @@
             margin-left: 97px;
         }
     }  
+    .page-404__inner{
+        .page-404__title{
+            font-size: 26px;
+        }
+    } 
 }
 
 
