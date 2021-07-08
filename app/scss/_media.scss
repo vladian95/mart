@@ -360,7 +360,17 @@
                 padding: 19px 54px;
             }
         }
-    }    
+    }  
+    .terms__box{
+        padding: 30px 10px 30px 31px;
+        .terms__box-bottom__title{
+            font-size: 22px;
+        }
+        .terms__box-text{
+            font-size: 14px;
+            line-height: 23px;
+        }
+    }  
 }
 @media (max-width: 690px){
     .search__inner-box2{
