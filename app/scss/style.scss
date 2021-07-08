@@ -2494,6 +2494,7 @@ footer {
 .pricing__inner-items{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 34px;
     .pricing__item{
         background-color: #fff;

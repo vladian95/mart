@@ -20,6 +20,15 @@
     .news__inner-item{
         max-width: 48%;
     }
+    .pricing__inner-items{
+        .pricing__item{
+            width: 48%;
+            margin-top: 15px;
+            & + .pricing__item{
+                margin-left: 0;
+            }
+        }
+    } 
 }
 @media (max-width: 1160px){
     .footer__inner{
@@ -329,6 +338,29 @@
     .header__box-icon{
         display: none;
     }
+    .pricing__inner-items{
+        .pricing__item{
+            width: 100%;
+        }
+    } 
+    .pricing__text-box{
+        .title{
+            font-size: 26px;
+        }
+        .text{
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }
+    .pricing__item-red,
+    .pricing__item-blue,
+    .pricing__item-yellow{
+        .pricing__btn{
+            button{
+                padding: 19px 54px;
+            }
+        }
+    }    
 }
 @media (max-width: 690px){
     .search__inner-box2{
