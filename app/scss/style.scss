@@ -2605,9 +2605,11 @@ footer {
             margin-top: 32px;
             margin-bottom: 38px;
             form{
+                max-width: 555px;
                 position: relative;
+                margin: 0 auto;
                 input{
-                    width: 555px;
+                    width: 100%;
                     padding: 21px 30px;
                     border-radius: 32px;
                     border: none;
@@ -2616,7 +2618,7 @@ footer {
                 button{
                     position: absolute;
                     top: 0;
-                    right: 292px;
+                    right: 0;
                     padding: 21px 30px;
                     border-radius: 32px;
                     border: none;
@@ -2646,9 +2648,11 @@ footer {
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    flex-wrap: wrap;
     .category__inner-header__links{
         display: flex;
         justify-content: space-between;
+        margin-right: 40px;
         li{
             & + li{
                 margin-left: 50px;
@@ -2827,16 +2831,17 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     overflow: hidden;
+    margin-left: 41px;
     .category__item{
         max-width: 262px;
         background-color: #fff;
-        max-height: 390px;
         transition: all .5s;
+        margin-bottom: 32px;
+        .category__item-images{
+            width: 100%;
+        }
         img{
             min-height: 160px;
-        }
-        & + .category__item{
-            margin-bottom: 30px;
         }
     }
     .category__item-box__content{
