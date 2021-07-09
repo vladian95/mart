@@ -71,6 +71,25 @@
             display: none;
         }
     }
+    .single__inner{
+        display: block;
+        text-align: -webkit-center;
+        .single__item-inner{
+            margin-bottom: 25px;
+        }
+        .single-sidebar__inner{
+            max-width: 66%;
+            .single-sidebar__item{
+                .single-sidebar__item-btn{
+                    .sidebar__item-btn-purple{
+                        &::before{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    } 
 }
 @media (max-width: 1160px) {
     .footer__inner {
@@ -391,6 +410,42 @@
             }
         }
     }
+    .breadcrumbs{
+        .breadcrumbs__inner{
+            .breadcrumbs__title{
+                font-size: 20px;
+            }
+        }
+    }  
+    .single__inner{
+        .single__item-inner{
+            width: 100%;
+            .single__item{
+                img{
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+            .tabs{
+                display: block;
+                .tab{
+                    display: block;
+                }
+            }
+        }
+        .single-sidebar__inner{
+            max-width: 100%;
+        }
+        .tab-item__list{
+            text-align: start;
+        }
+    } 
+    .tab-item__content{
+        img{
+            width: 100%;
+            max-width: 100%;
+        }
+    }
 }
 @media (max-width: 820px) {
     .header__seller {
@@ -546,6 +601,35 @@
     .advantages__inner-item-money {
         padding-right: 25px;
     }
+    .single__inner{
+        .single__item-inner{
+            .single__item{
+                .single__item-box-btn{
+                    button{
+                        & + button{
+                            margin-left: 0;
+                        }
+                    }
+                    .heart__single{
+                        display: block;
+                        margin: auto;
+                        margin-top: 15px;
+                    } 
+                } 
+                .single__item-bottom{
+                    display: block;
+                    button{
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }  
+    .footer__social-link{
+        li{
+            display: block;
+        }
+    } 
 }
 @media (max-width: 620px) {
     .search__inner-box2 {
