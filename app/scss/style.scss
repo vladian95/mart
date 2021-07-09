@@ -2300,7 +2300,7 @@ footer {
         margin-bottom: 20px;
     }
     .top__box-text {
-        width: 405px;
+        max-width: 405px;
         margin: 0 auto;
         font-size: 16px;
         line-height: 28px;
@@ -2317,7 +2317,7 @@ footer {
             margin-top: 30px;
         }
         input {
-            width: 455px;
+            width: 100%;
             padding: 19px 20px;
             background-color: $page;
             border: none;
@@ -2494,6 +2494,7 @@ footer {
 .pricing__inner-items{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 34px;
     .pricing__item{
         background-color: #fff;
@@ -2604,9 +2605,11 @@ footer {
             margin-top: 32px;
             margin-bottom: 38px;
             form{
+                max-width: 555px;
                 position: relative;
+                margin: 0 auto;
                 input{
-                    width: 555px;
+                    width: 100%;
                     padding: 21px 30px;
                     border-radius: 32px;
                     border: none;
@@ -2615,7 +2618,7 @@ footer {
                 button{
                     position: absolute;
                     top: 0;
-                    right: 292px;
+                    right: 0;
                     padding: 21px 30px;
                     border-radius: 32px;
                     border: none;
@@ -2639,15 +2642,16 @@ footer {
         
     }
 }
-
 .category__inner-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    flex-wrap: wrap;
     .category__inner-header__links{
         display: flex;
         justify-content: space-between;
+        margin-right: 40px;
         li{
             & + li{
                 margin-left: 50px;
@@ -2826,16 +2830,17 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     overflow: hidden;
+    margin-left: 41px;
     .category__item{
         max-width: 262px;
         background-color: #fff;
-        max-height: 390px;
         transition: all .5s;
+        margin-bottom: 32px;
+        .category__item-images{
+            width: 100%;
+        }
         img{
             min-height: 160px;
-        }
-        & + .category__item{
-            margin-bottom: 30px;
         }
     }
     .category__item-box__content{
@@ -3192,6 +3197,10 @@ footer {
         transition: all .5s;
         box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1); 
         margin-bottom: 30px;
+        .favorites__item-images{
+            width: 100%;
+            max-width: 100%;
+        }
         img{
             min-height: 160px;
         }
@@ -3489,6 +3498,9 @@ footer {
     background-color: #fff;
     margin-bottom: 41px;
     box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+    img{
+        width: 100%;
+    }
     .title{
         font-size: 30px;
         color: $bg; 
@@ -4079,6 +4091,7 @@ footer {
                 width: 100px;
                 background-color: #d3d3d3;
                 border-radius: 50%;
+                margin: 0 auto;
             }
             .name{
                 margin-top: 25px;
